@@ -23,6 +23,9 @@ makeCacheMatrix <- function(x = matrix()) {
 ## This function computes the inverse of the special matrix returned by the makeCacheMatrix
 ## above. If the inverse has already been calculated, then the cachsolve should retrieve the
 ## inverse from the cache.
+
+## Sample matrix generation code
+## x <- matrix(c(0,11,2,3,4,5,6,7,8), c(3,3))
  
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
