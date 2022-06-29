@@ -26,6 +26,10 @@ makeCacheMatrix <- function(x = matrix()) {
 
 ## Sample matrix generation code
 ## x <- matrix(c(0,11,2,3,4,5,6,7,8), c(3,3))
+
+## Sample solve call code
+## xMat <- makeCacheMatrix(x)
+## cacheSolve(xMat)
  
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
